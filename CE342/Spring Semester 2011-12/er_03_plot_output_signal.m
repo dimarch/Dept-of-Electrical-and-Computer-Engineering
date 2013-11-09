@@ -1,6 +1,6 @@
 % Digital Signal Processing
 % Spring Semester 2011-12
-% Project MATlab
+% Project Matlab
 
 clc, close all, clear all
 
