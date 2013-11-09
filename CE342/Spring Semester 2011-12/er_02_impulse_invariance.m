@@ -1,13 +1,13 @@
 % Digital Signal Processing
-% EARINO EKSAMINO 2011/12
+% Spring Semester 2011-12
 % Project MATlab
-% IIR Filtro 'impulse invariance'
+% IIR Filter 'impulse invariance'
 % Butterworth Lowpass Filter Design 
 % Impulse Invariance Transformation
 
 clc, close all, clear all
 
-% Comments in m-file. 
+% Comments for m-file 
 help er_02_impulse_invariance
 
 % Digital Filter Specifications: 
@@ -31,7 +31,7 @@ Attn = 1/(10^(As/20));      % Stopband Attenuation
 % Impulse Invariance transformation: 
 [b,a] = imp_invr(cs,ds,Td); 
 
-% Plot
+% plot
 
 figure(1); 
 
