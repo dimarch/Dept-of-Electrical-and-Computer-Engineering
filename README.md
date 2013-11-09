@@ -3,12 +3,16 @@
 
 ### Project's ###
 
+CE342 - Digital Signal Processing
 
->CE671 - Advanced Topics in Speech and Language Processing
-
->ΗΥ671 - Προχωρημένα Θέματα Επεξεργασίας Φωνής και Λόγου
+ΗΥ342 - Ψηφιακή Επεξεργασία Σημάτων
 
 
->CE620 - Human Computer Interaction
+CE671 - Advanced Topics in Speech and Language Processing
 
->ΗΥ620 - Επικοινωνία Ανθρώπου Μηχανής
+ΗΥ671 - Προχωρημένα Θέματα Επεξεργασίας Φωνής και Λόγου
+
+
+CE620 - Human Computer Interaction
+
+ΗΥ620 - Επικοινωνία Ανθρώπου Μηχανής
