@@ -1,6 +1,6 @@
 % Digital Signal Processing
-% EARINO EKSAMINO 2011/12
-% Project MATlab
+% Spring Semester 2011-12
+% Project Matlab
 % IIR Filtro 'bilinear transform'
 
 clc, close all, clear all
@@ -29,7 +29,7 @@ Attn = 1/(10^(As/20));      % Stopband Attenuation
 % Bilinear transformation: 
 [b,a] = bilinear(cs,ds,Td);
 
-% Plot
+% plot
 
 figure(1); subplot(1,1,1)
 [db,mag,pha,grd,w] = freqz_m(b,a);
