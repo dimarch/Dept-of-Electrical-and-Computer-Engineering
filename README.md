@@ -3,6 +3,11 @@
 
 ### Project's ###
 
+CE241 - Signals and Systems
+
+ΗΥ241 - Σήματα και Συστήματα
+
+
 CE342 - Digital Signal Processing
 
 ΗΥ342 - Ψηφιακή Επεξεργασία Σημάτων
