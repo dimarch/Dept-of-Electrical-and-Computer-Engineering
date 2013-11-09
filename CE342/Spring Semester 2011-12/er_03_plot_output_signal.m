@@ -1,5 +1,5 @@
 % Digital Signal Processing
-% EARINO EKSAMINO 2011/12
+% Spring Semester 2011-12
 % Project MATlab
 
 clc, close all, clear all
@@ -7,14 +7,14 @@ clc, close all, clear all
 % Comments for m-file
 help er_03_plot_output_signal
 
-%Design of lowpass FIR filter with Hamming window
+% Design of lowpass FIR filter with Hamming window
 
 wp = 0.2*pi;       % digital Passband freq in Hz
 ws = 0.3*pi;       % digital Stopband freq in Hz
 tr_width = ws-wp;  % transition width
 M = ceil(6.6*pi/tr_width)+1;
 
-%disp(N)
+% disp(N)
 n = [0:1:M-1];
 wc = (ws+wp)/2;              % cutoff frequency of filter
 hd = ideal_lp(wc,M);
