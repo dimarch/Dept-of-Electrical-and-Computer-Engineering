@@ -23,15 +23,12 @@ L = 512;     % length signal is 512.
 n = 0:1:L-1; % length of n
 
 A1 = 1;      % Platos tou 1ou cos
- 
 A2 = 0.5;    % Platos tou 2ou cos
  
 x1 = A1*cos(w1*n); % 1st cosine
- 
 x2 = A2*cos(w2*n); % 2nd cosine
  
 x = x1+x2;   % The signal x[n]
  
 stem(x);     % Plot in discrete time
-
 grid on
