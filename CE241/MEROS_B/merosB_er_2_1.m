@@ -1,7 +1,7 @@
 % Signals and Systems
 % Fall Semester 2011-12
 % Project Matlab
-% 2st Part // 2.1
+% 2nd Part // 2.1
 
 clc, close all, clear all
 
