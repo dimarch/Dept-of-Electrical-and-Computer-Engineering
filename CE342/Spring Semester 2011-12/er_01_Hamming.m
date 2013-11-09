@@ -1,5 +1,5 @@
 % Digital Signal Processing
-% EARINO EKSAMINO 2011/12
+% Spring Semester 2011-12
 % Project Matlab
 % FIR Filtro 'Window Hamming'
 % Specifications: low pass, wp = 0.2*pi, ws = 0.3*pi, Rp = 0.25db, As = 50db
