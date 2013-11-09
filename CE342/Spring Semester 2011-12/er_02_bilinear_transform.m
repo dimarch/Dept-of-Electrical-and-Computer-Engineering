@@ -60,6 +60,6 @@ title('Group Delay')
 axis([0,1,0,10])
 grid
 
-% Έλεγχος εάν πληρούνται οι αρχικές ψηφιακές προδιαγραφές
+% Check if the initial digital specifications are met
 Hw1w2=freqz(b,a,[Ws Wp]); 
 10*log10(abs(Hw1w2).^2)
