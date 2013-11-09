@@ -1,5 +1,5 @@
 % Digital Signal Processing
-% EARINO EKSAMINO 2011/12
+% Spring Semester 2011-12
 % Project MATlab
 
 clc, close all, clear all
