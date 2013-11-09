@@ -1,7 +1,7 @@
 % Digital Signal Processing
-% EARINO EKSAMINO 2011/12
-% Project MATlab
-% FIR Filtro 'Window Kaiser'
+% Spring Semester 2011-12
+% Project Matlab
+% FIR Filter 'Window Kaiser'
 
 clc, close all, clear all
 
@@ -32,7 +32,7 @@ delta_w = 2*pi/1000;
 Rp = -(min(db(1:1:wp/delta_w+1)));        % actual pass band ripple
 As = -round(max(db(ws/delta_w+1:1:501))); % Min stopband attenuation
 
-% Plot 
+% plot 
 
 subplot(231)
 plot(w/pi,mag);
