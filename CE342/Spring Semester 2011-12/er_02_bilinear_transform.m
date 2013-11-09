@@ -1,7 +1,7 @@
 % Digital Signal Processing
 % Spring Semester 2011-12
 % Project Matlab
-% IIR Filtro 'bilinear transform'
+% IIR Filter 'bilinear transform'
 
 clc, close all, clear all
 
