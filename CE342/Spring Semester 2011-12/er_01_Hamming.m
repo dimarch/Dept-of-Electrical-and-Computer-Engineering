@@ -1,7 +1,7 @@
 % Digital Signal Processing
 % Spring Semester 2011-12
 % Project Matlab
-% FIR Filtro 'Window Hamming'
+% FIR Filter 'Window Hamming'
 % Specifications: low pass, wp = 0.2*pi, ws = 0.3*pi, Rp = 0.25db, As = 50db
 
 clc, close all, clear all
