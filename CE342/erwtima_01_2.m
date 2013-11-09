@@ -1,7 +1,7 @@
-% PSIFIAKH EPEKSERGASIA SHMATOS
+% Digital Signal Processing
 % EARINO EKSAMINO 2011/12
-% ERGASIA MATlab
-% FIR Filtro 'Parathiro Kaiser'
+% Project MATlab
+% FIR Filtro 'Window Kaiser'
 
 clc, close all, clear all
 
