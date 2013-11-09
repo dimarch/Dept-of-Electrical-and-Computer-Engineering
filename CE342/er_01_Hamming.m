@@ -6,7 +6,7 @@
 
 clc, close all, clear all
 
-% Comments in m-file
+% Comments for m-file
 help er_01_Hamming
 
 % Design of lowpass FIR filter with Hamming window
@@ -29,7 +29,7 @@ delta_w = 2*pi/1000;
 Rp = -(min(db(1:1:wp/delta_w+1)));        % actual pass band ripple
 As = -round(max(db(ws/delta_w+1:1:501))); % Min stopband attenuation
  
-%Plot
+% plot
 
 subplot(231)
 plot(w/pi,mag);
