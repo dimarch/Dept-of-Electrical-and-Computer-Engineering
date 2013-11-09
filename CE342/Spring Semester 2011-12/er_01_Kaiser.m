@@ -5,7 +5,7 @@
 
 clc, close all, clear all
 
-% Comments in m-file
+% Comments for m-file
 help er_01_Kaiser
 
 % Design of lowpass FIR filter with Kaiser window
