@@ -7,7 +7,7 @@
 clc, close all, clear all
 
 % Comments for m-file
-help merosA_er1_4-DFT-512
+help merosA_er1_4i-DFT-512
 
 l1 = length('DIMITRIOS'); % Length Name l1.
 l2 = length('ARCHONTIS'); % Length Surname l2.
