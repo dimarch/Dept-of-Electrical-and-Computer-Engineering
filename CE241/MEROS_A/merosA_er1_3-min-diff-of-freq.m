@@ -27,9 +27,9 @@ n = 0:1:L-1;        % length of n
 
 mesosorosw1w2 = (w1+w2)/2; % Mean value of w1 and w2
 
-d=abs((mesosorosw1w2-w1))/10;
+d = abs((mesosorosw1w2-w1))/10;
 
-a=[w1:d:mesosorosw1w2;w2:-d:mesosorosw1w2];
+a = [w1:d:mesosorosw1w2;w2:-d:mesosorosw1w2];
  
 
 A1 = 1;             % Amplitude
@@ -41,13 +41,13 @@ x1=A1*cos(a(1,i)*n);% 1st cosine with new w1
  
 x2=A2*cos(a(2,i)*n);% 2nd cosine with new w2
  
-w=(ones(1,L));      % Create window w[n]
+w = (ones(1,L));    % Create window w[n]
 
-x=x1.*w+x2.*w;      % The input signal x[n]
+x = x1.*w+x2.*w;    % The input signal x[n]
 
-X=fft(x,N);         % DFT calculation
+X = fft(x,N);       % DFT calculation
 
-k=0:1:N-1;
+k = 0:1:N-1;
 
 stem(k,abs(X));     % Plot the input signal x[n] in discrete time
 
