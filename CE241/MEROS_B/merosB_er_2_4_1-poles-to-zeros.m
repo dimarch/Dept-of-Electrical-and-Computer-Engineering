@@ -7,7 +7,7 @@
 clc, close all, clear all
 
 % Comments for m-file
-help merosB_er_2_4-poles-to-zeros
+help merosB_er_2_4_1-poles-to-zeros
 
 for a = 0.1:0.1:1.2;
 % The zeros (numerator) | 1i = j
