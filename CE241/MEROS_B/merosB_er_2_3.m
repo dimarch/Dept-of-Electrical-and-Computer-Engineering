@@ -52,7 +52,7 @@ xlabel('Samples');
 ylabel('Amplitude');
 
 % Output to such a stimulation (Frequency Response)
-ypulse=conv(H,Upulse);
+ypulse = conv(H,Upulse);
 
 figure(4);
 stem(ypulse);
