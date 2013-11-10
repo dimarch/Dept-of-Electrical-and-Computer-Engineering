@@ -6,7 +6,7 @@
 clc, close all, clear all
 
 % Comments for m-file
-help merosA_er1_1
+help merosA_er1_1-xcorr
 
 l1 = length('DIMITRIOS'); % Length Name l1.
 l2 = length('ARCHONTIS'); % Length Surname l2.
@@ -37,6 +37,6 @@ x = x1.*w+x2.*w;    % The input signal x[n]
 
 y = xcorr(x);
 
-stem(y);          % Plot the input signal x[n] in discrete time
+stem(y);            % Plot the input signal x[n] in discrete time
 grid on
 title('Autocorrelation of input signal x[n]');
