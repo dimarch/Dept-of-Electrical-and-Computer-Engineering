@@ -2,7 +2,7 @@
 % Fall Semester 2011-12
 % Project Matlab
 % 1st Part // 1.4
-% Question 1.3 | N=512 L=512
+% Question 1.3 | N=512 L=256
 
 clc, close all, clear all
 
@@ -20,7 +20,7 @@ w1 = pi*ww1;
 ww2 = mod(ww1+1/4,1);
 w2 = pi*ww2;
 
-L = 512;            % length signal is 512
+L = 256;            % length signal
 
 n = 0:1:L-1;        % length of n
 
@@ -57,6 +57,7 @@ grid on
 title('DFT of the Samples');
 xlabel('axis of k value');
 ylabel('amplitude');
-pause (1) % Pause for 1 second
+
+pause (1)           % Pause for 1 second
 
  end
