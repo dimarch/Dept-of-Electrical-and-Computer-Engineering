@@ -19,9 +19,9 @@ w1 = pi*ww1;
 ww2 = mod(ww1+1/4,1);
 w2 = pi*ww2;
 
-L=512;     % length signal is 512
+L=512;            % length signal is 512
 
-n=0:1:L-1; % length of n
+n=0:1:L-1;        % length of n
  
 A1=1;
 A2=0.75;
@@ -37,6 +37,6 @@ x=x1.*w+x2.*w;    % The input signal x[n]
 
 y=xcorr(x);
 
-stem(y); % Plot the input signal x[n] in discrete time
+stem(y);          % Plot the input signal x[n] in discrete time
 grid on
 title('Autocorrelation of input signal x[n]');
