@@ -25,7 +25,7 @@ grid on
 
 pause (1) % Pause for 1 second
   
-k=1; 
+k = 1; 
 
 % Finding Transfer Function
 % num = coefficients of numerator
