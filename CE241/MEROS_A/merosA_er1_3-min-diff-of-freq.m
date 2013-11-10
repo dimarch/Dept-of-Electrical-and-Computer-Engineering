@@ -41,7 +41,7 @@ x1=A1*cos(a(1,i)*n);% 1st cosine with new w1
  
 x2=A2*cos(a(2,i)*n);% 2nd cosine with new w2
  
-w=(ones(1,L));      % Create signal w[n]
+w=(ones(1,L));      % Create window w[n]
 
 x=x1.*w+x2.*w;      % The input signal x[n]
 
