@@ -1,62 +1,61 @@
-
+% Signals and Systems
+% Fall Semester 2011-12
+% Project Matlab
+% 1st Part // 1.5
+% Question 1.2
 
 clc, close all, clear all
 
-% Εμφάνιση σχολίων και αναφορά στο m-file.
-help merosA_15_12
+% Comments for m-file
+help merosA_er1_5ii-DFT-256
 
-l1=length('DIMITRIOS'); % Μήκος Ονόματος l1.
-l2=length('ARCHONTIS'); % Μήκος Επιθέτου l2.
- 
-% Υπολογισμός ω1.
+l1 = length('DIMITRIOS'); % Length Name l1
+l2 = length('ARCHONTIS'); % Length Surname l2
+
+% Calculation of w1
 ww1 = mod(10/11*(max(l1,l2))/(l1+l2),1);
 w1 = pi*ww1;
  
-% Υπολογισμός ω2. 
+% Calculation of w2
 ww2 = mod(ww1+1/4,1);
 w2 = pi*ww2;
 
-L=256; % Μήκος Σήματος L = 256 Δειγμάτων.
+L = 512;                  % length signal is 512
 
-n=0:1:L-1; % Μήκος του n.
+n = 0:1:L-1;              % length of n
  
-% Πλάτοι των ημιτόνων.
-A1=1; 
+A1 = 1;
+A2 = 0.75;
  
-A2=0.75;
+x1 = A1*cos(w1*n);  % 1st cosine
+x2 = A2*cos(w2*n);  % 2nd cosine
  
-x1=A1*cos(w1*n); % Σχηματισμός 1ου Ημιτόνου
+x0 = x1+x2;         % Signal x[n] without w[n]
  
-x2=A2*cos(w2*n); % Σχηματισμός 2ου Ημιτόνου
- 
-x0=x1+x2; % Σχηματισμός Σήματος x[n] χωρίς το w[n].
- 
-w=hamming(L); % Δημιουργία του w[n].
+w = hamming(L);     % Create window w[n]
 
-x=x1.*w'+x2.*w'; % Σήμα ανάλυσης x[n].
+x=x1.*w'+x2.*w';    % The input signal x[n]
 
-N=256; % Μήκος Διακριτού Μετ/σμού Fourier.
+N = 256;            % Length of Discrete Fourier Transform
 
-X=fft(x,N); % Υπολογισμός DFT
+X = fft(x,N);       % DFT calculation
 
-% Χωρίζω το παράθυρο της εικόνας σε 2 μέρη και χρησιμοποιώ το 1ο Παράθυρο.
 subplot(2,1,1)
 
-% Αρχικό Σήμα x[n].
-stem(n,x); % Εμφάνιση γραφήματος στον Διακριτό Χρόνο.
-axis([0,255,-2,2]); % Κλίμακα αξόνων
-grid on % Σχεδιασμός γραμμών πλέγματος του γραφήματος.
-title('Αρχικό Σήμα x[n]');
-xlabel('’ξονας τιμών n');
+% The init signal x[n]
+stem(n,x);
+axis([0,255,-2,2]); % axis range
+grid on
+title('Init signal x[n]');
+xlabel('axis of n value');
 
-k=0:1:N-1; % Είναι N = 256 Δείγματα.
+k = 0:1:N-1;
 
-% Έχοντας χωρισμένο το παράθυρο, χρησιμοποιώ το 2ο Παράθυρο.
 subplot(2,1,2)
 
-stem(k,abs(X)); % Εμφάνιση του Πλάτους του.
-axis([0,255,0,70]); % Κλίμακα αξόνων
-grid on % Σχεδιασμός γραμμών πλέγματος του γραφήματος.
-title('DFT Δειγμάτων');
-xlabel('Αξονας τιμών k');
-ylabel('Πλάτος');
+stem(k,abs(X));
+axis([0,255,0,70]); % axis range
+grid on 
+title('DFT of the Samples');
+xlabel('axis of k value');
+ylabel('amplitude');
