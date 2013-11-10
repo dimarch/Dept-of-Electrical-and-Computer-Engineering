@@ -3,6 +3,7 @@
 % Project Matlab
 % 2nd Part // 2.4
 % Removal zeros from poles
+% Diagram of amplitude response
 
 clc, close all, clear all
 
