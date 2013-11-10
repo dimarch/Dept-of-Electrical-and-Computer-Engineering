@@ -7,7 +7,7 @@
 clc, close all, clear all
 
 % Comments for m-file
-help merosB_er_2_4_2-removal-zeros-from-poles
+help merosB_er_2_4_4-removal-zeros-from-poles
 
 for a = 0.78:0.1:1.2;
 
