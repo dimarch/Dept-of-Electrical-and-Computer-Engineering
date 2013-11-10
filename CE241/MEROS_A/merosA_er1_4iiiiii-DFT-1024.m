@@ -35,7 +35,6 @@ mesosorosw1w2 = (w1+w2)/2; % Mean value of w1 and w2
 d=abs((mesosorosw1w2-w1))/10;
 
 a=[w1:d:mesosorosw1w2;w2:-d:mesosorosw1w2];
- 
 
 A1 = 1;             % Amplitude
 A2 = 0.75;          % Amplitude
