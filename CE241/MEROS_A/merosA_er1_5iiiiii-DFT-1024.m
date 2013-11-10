@@ -1,7 +1,7 @@
 % Signals and Systems
 % Fall Semester 2011-12
 % Project Matlab
-% 1st Part // 1.4
+% 1st Part // 1.5
 % Question 1.4 --> Question 1.2 | N=1024 L=512
 
 clc, close all, clear all
