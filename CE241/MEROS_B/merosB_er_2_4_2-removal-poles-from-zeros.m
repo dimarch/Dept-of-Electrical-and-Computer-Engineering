@@ -12,10 +12,10 @@ help merosB_er_2_4_2-removal-poles-from-zeros
 for a=1.2:-0.1:0.1;
 
 % The zeros (numerator) | 1i = j
-zer=1.2*exp(1i*pi*[-0.35 0.35]'); 
+zer = 1.2*exp(1i*pi*[-0.35 0.35]'); 
 
 % The poles (denominator) | 1i = j
-pol=[0.65*exp(1i*2*pi*[-0.58 0.58]') ; a*exp(1i*pi*[-0.35 0.35]') ; -0.85*exp(1i*2*pi*[-0.56 0.56]')];
+pol = [0.65*exp(1i*2*pi*[-0.58 0.58]') ; a*exp(1i*pi*[-0.35 0.35]') ; -0.85*exp(1i*2*pi*[-0.56 0.56]')];
 
 figure(1)
 
@@ -25,7 +25,7 @@ grid on
 
 pause (1) % Pause for 1 second
   
-k=1; 
+k = 1; 
 
 % Finding Transfer Function
 % num = coefficients of numerator
