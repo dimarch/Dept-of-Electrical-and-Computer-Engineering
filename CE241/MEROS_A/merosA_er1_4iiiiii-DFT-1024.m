@@ -24,7 +24,7 @@ L = 512;            % length signal
 
 n = 0:1:L-1;        % length of n
 
-mesosorosw1w2=(w1+w2)/2; % ���� ���� �1 ��� �2
+mesosorosw1w2=(w1+w2)/2;
 
 d=abs((mesosorosw1w2-w1))/10;
 
