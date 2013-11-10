@@ -37,7 +37,7 @@ w = (ones(1,L));    % Create window w[n]
 
 x = x1.*w+x2.*w;    % The input signal x[n]
 
-N = 512;            % Length of Discrete Fourier Transform
+N = 1024;            % Length of Discrete Fourier Transform
 
 X = fft(x,N);       % DFT calculation
 
