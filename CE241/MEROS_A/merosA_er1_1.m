@@ -5,6 +5,7 @@
 
 clc, close all, clear all
 
+% Comments for m-file
 help merosA_er1_1
 
 l1=length('DIMITRIOS'); % Length Name l1.
