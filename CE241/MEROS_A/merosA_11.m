@@ -22,19 +22,19 @@ L=512;     % length signal is 512
 
 n=0:1:L-1; % length of n
  
-A1=1;      % Platos tou 1ou cosine
-A2=0.75;   % Platos tou 2ou cosine
+A1=1;
+A2=0.75;
  
 x1=A1*cos(w1*n);  % 1st cosine
 x2=A2*cos(w2*n);  % 2nd cosine
  
-x0=x1+x2;  
+x0=x1+x2;         % Signal x[n] without w[n]
  
-w=(ones(1,L)); 
+w=(ones(1,L));    % Create signal w[n]
 
-x=x1.*w+x2.*w; % The input signal x[n]
+x=x1.*w+x2.*w;    % The input signal x[n]
 
-y=xcorr(x); 
+y=xcorr(x);
 
 stem(y); % Plot the input signal x[n] in discrete time
 grid on
