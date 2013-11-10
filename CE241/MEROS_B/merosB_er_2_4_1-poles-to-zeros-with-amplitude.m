@@ -30,7 +30,7 @@ k = 1;
 % Finding Transfer Function
 % num = coefficients of numerator
 % den = coefficients of denominator
-[num,den] = zp2tf(zer,pol,k)
+[num,den] = zp2tf(zer,pol,k);
 
 % Amplitude
 w = 0:pi/255:pi;
