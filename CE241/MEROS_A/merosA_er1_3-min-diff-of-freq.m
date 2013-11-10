@@ -19,7 +19,7 @@ w1 = pi*ww1;
 ww2 = mod(ww1+1/4,1);
 w2 = pi*ww2;
 
-L = 256;            % length signal
+L = 512;            % length signal
 
 N = 256;            % Length of Discrete Fourier Transform
  
