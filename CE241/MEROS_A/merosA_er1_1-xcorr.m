@@ -31,7 +31,7 @@ x2 = A2*cos(w2*n);  % 2nd cosine
  
 x0 = x1+x2;         % Signal x[n] without w[n]
  
-w = (ones(1,L));    % Create signal w[n]
+w = (ones(1,L));    % Create window w[n]
 
 x = x1.*w+x2.*w;    % The input signal x[n]
 
