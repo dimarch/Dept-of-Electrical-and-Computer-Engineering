@@ -21,35 +21,35 @@ zplane(zer,pol);
 
 grid on
 
-k=1; % gain
+k = 1; % gain
 
 % Finding Transfer Function
 % num = coefficients of numerator
 % den = coefficients of denominator
-[num,den]=zp2tf(zer,pol,k) 
+[num,den] = zp2tf(zer,pol,k) 
 
 sys = zpk(zer,pol,k);
 
 sys1 = tf(sys) % Transfer Function
 
 % Amplitude
-w=0:pi/255:pi;
-H1=freqz(num,den,w);
-m1=abs(H1);
+w = 0:pi/255:pi;
+H1 = freqz(num,den,w);
+m1 = abs(H1);
 
 figure(2);
  
 subplot(211);
 plot(w/pi,m1);       % Plot Amplitude
-title('Magnitute');
+title('Magnitude');
 
 % Phase
-ph1=angle(H1).*180/pi;
+ph1 = angle(H1).*180/pi;
 
 figure(2); 
 
 subplot(212);
-plot(w/pi,ph1);      % Plot Amplitude
+plot(w/pi,ph1);      % Plot Phase
 title('Phase');
 
 % Impulse response
@@ -62,7 +62,7 @@ xlabel('Samples');
 ylabel('Amplitude');
 
 % Step Response
-[H2,T2]=stepz(num,den); % Step response of digital filter
+[H2,T2] = stepz(num,den); % Step response of digital filter
 
 figure(4);
 stem(T2,H2); 
