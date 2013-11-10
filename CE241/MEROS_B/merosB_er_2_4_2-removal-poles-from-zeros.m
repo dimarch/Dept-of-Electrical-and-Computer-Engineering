@@ -9,7 +9,7 @@ clc, close all, clear all
 % Comments for m-file
 help merosB_er_2_4_2-removal-poles-from-zeros
 
-for a=1.2:-0.1:0.1;
+for a = 1.2:-0.1:0.1;
 
 % The zeros (numerator) | 1i = j
 zer = 1.2*exp(1i*pi*[-0.35 0.35]'); 
