@@ -1,1 +1,7 @@
-Infor
+Information about the course
+---
+
+[GR] Το μάθημα εισάγει τις βασικές έννοιες και ιδιότητες σημάτων και συστημάτων συνεχούς και διακριτού χρόνου, και αποτελεί θεμελιώδες μάθημα στην κατεύθυνση σημάτων, τηλεπικοινωνιών, και δικτύων του προγράμματος σπουδών του τμήματος. Μεταξύ άλλων, καλύπτει τις εξής περιοχές: Στοιχειώδη σήματα συνεχούς και διακριτού χρόνου. Συνέλιξη σημάτων. Σειρές Fourier και μετασχηματισμός Fourier συνεχούς χρόνου. Μετασχηματισμός Fourier διακριτού χρόνου. Θεώρημα δειγματοληψίας. Γραμμικά χρονικά-αμετάβλητα συστήματα, περιγραφή τους με διαφορικές εξισώσεις / εξισώσεις διαφορών, και ανάλυση τους στα πεδία του χρόνου και συχνότητας. Μετασχηματισμός Laplace για συστήματα συνεχούς χρόνου. Μετασχηματισμός Ζ για συστήματα διακριτού χρόνου. Εισαγωγή στον Διακριτό Μετασχηματισμό Fourier. Εφαρμογές των ανωτέρω σε πρακτικά σήματα και συστήματα.
+
+
+[EN] The course introduces basic concepts and properties of continuous-time and discrete-time signals and systems, and constitutes a core course in the department specialization area of signals, communications, and networks. In more detail, it covers the following: Elementary continuous- and discrete-time signals; convolution; continuous-time Fourier series and Fourier transform; discrete-time Fourier transform; sampling theorem; linear, time invariant systems, their description using differential / difference equations, as well as time and frequency analysis; Laplace transform; Z-transform; introduction to discrete Fourier transform; practical application of the above concepts to real-life signals and systems.
