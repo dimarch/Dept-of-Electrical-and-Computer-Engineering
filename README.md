@@ -5,7 +5,7 @@
 
 ##### Μαθήματα
 
-`CE241` - [Signals and Systems (Σήματα και Συστήματα)][id1]
+`CE241` - Signals and Systems (Σήματα και Συστήματα)[Ιστοσελίδα μαθήματος][id1]
 
 `CE342` - Digital Signal Processing (Ψηφιακή Επεξεργασία Σημάτων)
 
