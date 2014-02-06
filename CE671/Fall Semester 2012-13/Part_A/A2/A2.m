@@ -1,4 +1,6 @@
 clear all; close all; clc;
+
+% Copyright 2012-2013 Dimitris Archontis.
 %%
 input_file_name = 'meros1.wav';
 [y,fs] = wavread(input_file_name); % read the file 
