@@ -1,0 +1,9 @@
+Information about the course
+---
+
+[GR] Το μάθημα επικεντρώνεται στις βασικές έννοιες επεξεργασίας φωνής και ήχου, με ιδιαίτερη έμφαση στην ανθρώπινη φωνή, και δη στην παραγωγή, αντίληψη, αναπαράσταση, κωδικοποίηση, σύνθεση, και αναγνώρισή της. Συνοπτικά, καλύπτει τις εξής περιοχές: Εισαγωγή στην ψηφιακή επεξεργασία φωνής. Επανάληψη βασικών γνώσεων ψηφιακής επεξεργασίας σήματος. Θεμελιώδεις έννοιες παραγωγής ανθρώπινης φωνής και διάδοση ήχου στην ανθρώπινη φωνητική οδό. Ακοή, ακουστικά μοντέλα, και αντίληψη ομιλίας. Μέθοδοι επεξεργασίας φωνής στο πεδίο του χρόνου. Αναπαραστάσεις στο πεδίο της συχνότητας. Ομομορφική επεξεργασία φωνής και cepstrum. Ανάλυση γραμμικής πρόβλεψης σημάτων φωνής. Αλγόριθμοι εκτίμησης παραμέτρων σήματος φωνής. Ψηφιακή κωδικοποίηση σημάτων ομιλίας. Κωδικοποίηση φωνής και ήχου στο πεδίο των συχνοτήτων. Σύνθεση ομιλίας από κείμενο. Αυτόματη αναγνώριση ομιλίας με χρήση κρυφών μοντέλων Markov και κατανόηση φυσικής γλώσσας.
+
+
+
+[EN] The course covers basic concepts in speech and audio processing, with its main focus being human speech, in particular its production, perception, representation, coding, synthesis, and recognition. In summary the course covers the following topics: Introduction to digital speech processing; a brief review of fundamentals of digital signal processing; fundamentals of human speech production and sound propagation in the human vocal tract; hearing, auditory models, and speech perception; time-domain methods for speech processing; frequency domain representations; homomorphic speech processing and cepstrum; linear predictive analysis of speech signals; algorithms for estimating speech parameters; digital coding of speech signals; frequency domain coding of speech and audio; text-to-speech synthesis; automatic speech recognition using hidden Markov models and natural language understanding.
+
